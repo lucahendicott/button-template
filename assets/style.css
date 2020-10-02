@@ -1,0 +1,22 @@
+button {
+  background-color: aqua;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  color: greenyellow;
+}
+
+button:hover {
+  background-color: blue;
+  transform: translate(1px, -2px);
+  box-shadow: 2px 5px #888888;
+}
+
+button:focus {
+  background-color: darkgoldenrod;
+}
+
+button:active {
+  background-color: crimson;
+}
